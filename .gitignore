@@ -1,0 +1,15 @@
+# Blender / OS junk
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+
+# local build outputs (regenerate with src/build_connector.py)
+model_*.png
+model_connector.blend
+
+# editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
