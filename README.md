@@ -11,6 +11,8 @@ Fan-made replacement for the wing-to-backpack connector shaft of the SOULMOULD (
 > ⚠️ 非官方配件，与塑灵模玩无关；仅供个人修复使用，禁止商用转售。
 > Unofficial fan part, not affiliated with or endorsed by SOULMOULD. Personal repair use only.
 
+**下载 / Download**：[Releases](https://github.com/102637111/bzliuxing-wing-backpack-shaft/releases/latest) · [直接下载 STL](stl/wing_backpack_shaft_1-12.stl)
+
 ---
 
 ## 打印验证结果 / Print-test result
@@ -23,6 +25,14 @@ Fan-made replacement for the wing-to-backpack connector shaft of the SOULMOULD (
 结论：**保留整圆 Ø5 轴**。轴切平后失去了圆柱配合面，装上去会晃；松紧不合适时只调孔径/轴径（见下方 “松紧微调”），不要切轴。
 
 Keep the shaft fully round. The flattened variant was tested and is loose; tune the fit with the bore/shaft diameters instead of cutting the shaft.
+
+---
+
+## 装配效果 / On the assembled kit
+
+<img src="images/installed_on_kit.jpg" width="420" alt="installed on the model kit">
+
+整机装配实拍（用户提供）：替换件装回后，翅膀与背包之间的连接处。 / User photo of the assembled kit with the part installed, at the wing–backpack joint.
 
 ---
 
@@ -117,7 +127,8 @@ python3 src/compare_photo.py        # 需要先有 model_top.png
 | `src/build_connector.py` | 参数化建模脚本 / parametric builder |
 | `src/draw_schematic.py` | 尺寸示意图生成 / dimension drawing |
 | `src/compare_photo.py` | 实物照片与模型同比例对照 / photo-vs-model comparison |
-| `images/` | 渲染、示意图、实物照片 / renders, drawings, photos |
+| `images/` | 渲染、示意图、实物照片、整机装配效果 / renders, drawings, photos, installed shot |
+| `docs/publish-printables.md` | 模型站上传文案（中/英）/ listing copy for Printables & MakerWorld |
 
 ---
 
